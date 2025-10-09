@@ -16,7 +16,7 @@ function Auth() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (email.trim() == "admin@admin.com" && password.trim() === "123") {
+    if (email.trim() === "admin@admin.com" && password.trim() === "123") {
       navigate("/home");
     } else {
       alert("usuario invalido");

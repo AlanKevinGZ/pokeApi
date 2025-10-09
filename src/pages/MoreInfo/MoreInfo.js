@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { fetchPokemonByName } from "../../store/PokemonSlice";
-import { BackButton, Container, InfoSection, InfoText, LoadingMessage, PokemonCard, PokemonImage, PokemonName, StatBarBackground, StatBarFill, StatItem, StatName, StatsSection, StatsTitle, TypeBadge, TypesContainer} from './style/MoreStyles'
+import { BackButton, Container, InfoSection, InfoText, LoadingMessage, PokemonCard, PokemonImage, PokemonName, StatItem, StatName, StatsSection, StatsTitle, TypeBadge, TypesContainer} from './style/MoreStyles'
 import Header from "../../components/Header/Header";
 
 function MoreInfo() {
