@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component matches snapshot 1`] = `
+<div>
+  <div
+    class="sc-bRKDuR jnvOHb"
+  >
+    <div
+      data-testid="header"
+    >
+      Poké API
+    </div>
+    <div
+      class="sc-hvigdm caMVCR"
+    >
+      <h2
+        class="sc-fhHczv kzeObA"
+      >
+        Lista de Pokémons:
+      </h2>
+      <ul
+        class="sc-ggWZvA fhCMza"
+      >
+        <li
+          class="sc-dTvVRJ dtDCyz"
+        >
+          <button
+            class="sc-jwTyAe jRayZA"
+          >
+            pikachu
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

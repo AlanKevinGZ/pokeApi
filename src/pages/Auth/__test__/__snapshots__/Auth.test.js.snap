@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Auth Component matches snapshot 1`] = `
+<div>
+  <div
+    class="sc-bRKDuR bVKRiX"
+  >
+    <div
+      class="sc-hvigdm ehVauW"
+    >
+      <h1
+        class="sc-fhHczv hFVOFc"
+      >
+        Login
+      </h1>
+      <form>
+        <input
+          class="sc-ggWZvA gHIUbt"
+          placeholder="admin@admin.com"
+          required=""
+          type="email"
+          value=""
+        />
+        <input
+          class="sc-ggWZvA gHIUbt"
+          placeholder="123"
+          required=""
+          type="password"
+          value=""
+        />
+        <button
+          class="sc-dTvVRJ eTQosJ"
+          type="submit"
+        >
+          Ingresar
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from "styled-components";
+import Theme from "./theme/Theme";
+import GlobalStyle from "./theme/GlobalStyle";
+import { Route, Routes } from "react-router-dom";
+import Auth from "./pages/Auth/Auth";
+import Home from "./pages/Home/Home";
+import MoreInfo from "./pages/MoreInfo/MoreInfo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={Theme}>
+      <GlobalStyle />
+
+      <Routes>
+        <Route path="/" element={<Auth />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/more/:id" element={<MoreInfo />} />
+      </Routes>
+    </ThemeProvider>
   );
 }
 

@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreInfo Component matches snapshot 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        data-testid="header"
+      >
+        PIKACHU
+      </div>
+      <div
+        class="sc-bRKDuR jnvOHb"
+      >
+        <button
+          class="sc-hvigdm eduGjA"
+        >
+          ← Volver
+        </button>
+        <div
+          class="sc-fhHczv dQnHSv"
+        >
+          <img
+            alt="pikachu"
+            class="sc-ggWZvA gPXyqc"
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+          />
+          <h2
+            class="sc-dTvVRJ scUFP"
+          >
+            pikachu
+          </h2>
+          <div
+            class="sc-jwTyAe gejmtu"
+          >
+            <p
+              class="sc-hjsuWn iOSaGa"
+            >
+              <strong>
+                ID:
+              </strong>
+               #
+              25
+            </p>
+            <p
+              class="sc-hjsuWn iOSaGa"
+            >
+              <strong>
+                Altura:
+              </strong>
+               
+              0.4
+               m
+            </p>
+            <p
+              class="sc-hjsuWn iOSaGa"
+            >
+              <strong>
+                Peso:
+              </strong>
+               
+              6
+               kg
+            </p>
+            <p
+              class="sc-hjsuWn iOSaGa"
+            >
+              <strong>
+                Tipo:
+              </strong>
+              <div
+                class="sc-dFVmKS ctmSWd"
+              >
+                <span
+                  class="sc-jJLAfE hGEkMP"
+                >
+                  electric
+                </span>
+              </div>
+            </p>
+            <p
+              class="sc-hjsuWn iOSaGa"
+            >
+              <strong>
+                Habilidades:
+              </strong>
+               
+              static, lightning-rod
+            </p>
+            <div
+              class="sc-hwkwBN juUUot"
+            >
+              <h3
+                class="sc-kNOymR kbNEyz"
+              >
+                Estadísticas:
+              </h3>
+              <div
+                class="sc-dYwGCk gHTkRk"
+              >
+                <strong
+                  class="sc-lgpSej fSTDxo"
+                >
+                  hp
+                  :
+                </strong>
+                 
+                35
+              </div>
+              <div
+                class="sc-dYwGCk gHTkRk"
+              >
+                <strong
+                  class="sc-lgpSej fSTDxo"
+                >
+                  attack
+                  :
+                </strong>
+                 
+                55
+              </div>
+              <div
+                class="sc-dYwGCk gHTkRk"
+              >
+                <strong
+                  class="sc-lgpSej fSTDxo"
+                >
+                  defense
+                  :
+                </strong>
+                 
+                40
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
