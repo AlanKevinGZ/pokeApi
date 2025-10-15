@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+#Proyecto
+
+Este proyecto consiste en una aplicación web desarrollada con React que consume la PokeAPI, una API pública que proporciona información detallada sobre los pokémon. El objetivo principal es construir una interfaz moderna e interactiva que permita buscar, visualizar y explorar datos de distintos pokémon, aplicando conceptos avanzados de desarrollo frontend como el manejo de estado global con Redux y la implementación de pruebas con Jest.
+<img width="877" height="902" alt="image" src="https://github.com/user-attachments/assets/4397f81b-b1e5-4c5d-af64-b63d6a0690cc" />
+
+
+
+
